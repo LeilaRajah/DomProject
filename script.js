@@ -1,14 +1,14 @@
 
 // declaration 
 
-let likes = document.getElementsByClassName('like')
+let likes = document.querySelectorAll('.like')
 let minus = document.querySelectorAll('.minus-btn')
 let plus = document.querySelectorAll('.plus-btn')
 let parent = document.querySelector(".items");
 let child = document.querySelectorAll('.Item');
 let number = document.querySelectorAll('.Quant')
 let finalPrice = document.getElementById('finalPrice')
-let prix = document.getElementsByClassName('price')
+let prix = document.querySelectorAll('.price')
 
 updateTotal()
 
